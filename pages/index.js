@@ -11,45 +11,48 @@ export default function Home() {
 
       <main>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to IReloaded Games!
         </h1>
 
         <p className={styles.description}>
-          Get started by editing <code>pages/index.js</code>
+          This site is an ode to video games, books (and comics), tv/movies, and more!
         </p>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+            <h3>Video Games &rarr;</h3>
+            <p>Join the discussion of your favorite video games, new and old.</p>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+            <h3>Books & Comics &rarr;</h3>
+            <p>See what books and comics others are reading. All genres welcome.</p>
           </a>
 
           <a
             href="https://github.com/vercel/next.js/tree/canary/examples"
             className={styles.card}
           >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <h3>TV & Movies &rarr;</h3>
+            <p>Westerns, anime, political dramas, etc. Nothing is off limits here!</p>
           </a>
 
           <a
             href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
           >
-            <h3>Deploy &rarr;</h3>
+            <h3>Other &rarr;</h3>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              Why stop here? There are so many interesting things to dive into!
             </p>
           </a>
         </div>
       </main>
 
       <footer>
+        <div>
+          Site created by Brendan Ryan.
+        </div>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
@@ -74,13 +77,13 @@ export default function Home() {
           height: 100px;
           border-top: 1px solid #eaeaea;
           display: flex;
-          justify-content: center;
+          justify-content: space-around;
           align-items: center;
         }
         footer img {
           margin-left: 0.5rem;
         }
-        footer a {
+        footer > a {
           display: flex;
           justify-content: center;
           align-items: center;
